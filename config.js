@@ -15,8 +15,8 @@ global.devs = '94760018802';
 global.website = 'https://github.com/yasiyaofc1/FORZEN-MD' //wa.me/+94760018802
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/0b5a7839e8ee21874921e.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'FORZEN MD' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'YASIYA OFC' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'MAXWELL MD' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'MAXWELL OP' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'YASIYA OFC' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
